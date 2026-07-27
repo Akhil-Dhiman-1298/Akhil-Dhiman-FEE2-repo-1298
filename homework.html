@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Form</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        .first{
+            height:100vh;
+            background:green;
+
+            display:flex;
+            justify-content:center; 
+            align-items:center;     
+        }
+
+        .inside{
+            background:aqua;
+            padding:20px;
+            border-radius:10px;
+            height:300px;
+            width:300px;
+            display:flex;
+            justify-content:center; 
+            align-items:center; 
+        }
+
+        .second{
+            height:100vh;
+            background-image: url("6764484_3436600.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-attachment: fixed;
+        }
+
+        .third{
+            height:100vh;
+            background:lightyellow;
+        }
+
+
+
+
+.icon-thing{
+    position:relative;
+    display:inline-block;
+    margin-left:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.msg{
+    position:absolute;
+    top:35px;
+    left:50%;
+    transform:translateX(-50%);
+    background:black;
+    color:white;
+    padding:8px 12px;
+    border-radius:6px;
+    white-space:nowrap;
+    font-size:14px;
+    display:none;
+}
+
+.icon-thing:hover .msg{
+    display:block;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="first">
+        
+        <div class="inside">
+            <div>
+            <label>Name:</label>
+            <input type="text"><br><br>
+<label>Passw:</label>
+<input type="password">
+<span class="icon-thing">
+    ⓘ
+    <span class="msg">
+        Minimum 8 characters needed.
+    </span>
+</span>
+
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="second"></div>
+</body>
+</html>
