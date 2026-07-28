@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+
+
+        *{
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        
+body{
+    background:#D8F3DC;
+    min-height:100vh;
+}
+
+.navbar{
+        width:100%;
+        height:300px;  
+        padding:0 40px;
+        background:#0F172A;
+        border: 1px solid rgba(255,255,255,0.15);
+        color: white; 
+        display:flex;
+        gap:64px;  
+        align-items:center;
+        position:relative;
+}
+
+.navbar .heading{
+    color:white;
+    font-size:95px;  
+    font-weight: 500;
+    gap:32px;  
+}
+
+.navbar .anchor{
+    
+    display:flex;
+    font-size:16px;  
+    font-weight: 500;
+    gap:100px;     
+    margin-left:auto;  
+    color:white;
+    align-items:center;
+}
+
+.a{
+       color:white; 
+    font-size:5rem;  
+    font-weight: 500;
+    text-decoration: none;
+    transition:color 0.3s ease;
+}
+
+a:hover{
+    color:yellow
+}
+
+.login-card{
+    width:1400px;          
+    height:1200px;         
+    padding:60px;
+    margin:150px auto;
+    background:rgba(15,23,42,0.75);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border-radius:20px;
+}
+
+.label{
+    display:block;
+    color:white;
+    font-size:50px;  
+    font-weight:500;
+    margin-top:18.4px;
+}
+
+input{
+    display:block;
+    width:100%;
+    height:80px;  
+    margin-top:12px;
+    font-size:40px; 
+    padding:0 15px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+#sub{
+    width:350px;  
+    height:170px; 
+    margin-top:90px;
+    background:yellow;
+    color:black;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:50px;
+    font-weight:bold;
+    text:"Login";
+}
+
+#sub:hover{
+    background:#1e2a4a;
+}
+
+.bell{
+    font-size:100px;  
+    color:white;
+    cursor:pointer;
+    position:relative;
+}
+
+.notification{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    position:absolute;
+    bottom:70px;  
+    left:30px; 
+    font-size: 40px;
+    background-color: red;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.info{
+    position:relative;
+    margin-left:8px;  
+    cursor:pointer;
+}
+.msg{
+    position:absolute;
+    bottom:16px;  
+    left:32px;  
+    background-color: black;
+    visibility: hidden;
+    padding:10px 15px;
+    border-radius:8px;
+    white-space:nowrap;
+    font-size:30px;
+}
+
+.info:hover .msg {
+    visibility: visible;
+}
+
+.nav{
+    display:flex;
+    margin-top:40px;
+    justify-content: center;
+    margin-left:20px;
+}
+
+.social{
+    height:100px;
+    background-color: #0F172A;
+    width:350px;
+    color:white;
+    font-size:59px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    white-space: nowrap;
+}
+
+.circle{
+    height:900px;
+    width:900px;
+    border-radius:50%;
+    position:absolute;
+    top:650px;
+    left:800px;
+    background-color:cyan;
+}
+
+.circle2{
+    height:600px;
+    width:600px;
+    border-radius:50%;
+    position:absolute;
+    top:1500px;
+    left:3500px;
+    background-color:lightgreen;
+}
+
+#hello{
+    margin-right:1400px;
+}
+
+.signup{
+    color:yellow;
+    font-size:59px;
+
+}
+
+.greencircle {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    border-radius: 50%;
+    top: 2350px;
+    left: 4750px;
+    background-color: red;
+    background-image: url("file:///C:/Users/Akhil%20Dhiman/Pictures/Screenshots/Screenshot%202026-07-27%20195000.png");
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.signup-btn{
+    height:100px;
+    width:350px;
+    background-color:#0F172A;
+    color:white;
+    font-size:59px;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.spare{
+    background:#D8F3DC;
+    min-height:100vh;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+     <div class="heading">Welcome to my Website</div>
+     <div class="anchor">
+       <a href="" class="a">Home</a>
+       <a href="" class="a">Gallery</a>
+       <a href="" class="a">Service</a>
+       <a href="" class="a" id="hello">About</a>
+       <i class="fa-solid fa-bell bell">
+         <div class="notification">5</div>
+       </i>
+     </div>
+    </div>
+    <div class="greencircle"></div>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="login-card">
+      <label for="username" class="label">Name:</label>
+      <input type="text" id="username">
+      <br>
+      <br>
+      <br>
+      <label for="pass" class="label">Password:
+            <span class="info">
+        ?
+        <span class="msg">
+            Password must contain at least 8 characters.
+        </span>
+    </span>
+      </label>
+      <input type="password" id="pass">
+      <input type="submit" id="sub" placeholder="Login">
+    
+    <div class="nav">
+    <div class="social">Click here to</div>
+
+    <button class="signup-btn">
+        Sign Up
+    </button>
+    </div>
+    </div>
+    <div class="spare"></div>
+    <div class="spare"></div>
+</body>
+</html>
