@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        }
+
+        .card {
+            width: 360px;
+            padding: 40px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #222;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 28px;
+            border: none;
+            border-radius: 10px;
+            background: #4f8cff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #326fe0;
+            transform: translateY(-2px);
+        }
+
+        .city {
+            margin-top: 30px;
+            font-size: 28px;
+            color: #222;
+        }
+
+        .temperature {
+            margin: 15px 0;
+            font-size: 48px;
+            font-weight: bold;
+            color: #4f8cff;
+        }
+
+        .condition {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Weather App</h1>
+
+        <button class="change">Get Weather</button>
+
+        <h2 class="city"></h2>
+
+        <p class="temperature"></p>
+
+        <p class="condition"></p>
+
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+</html>
