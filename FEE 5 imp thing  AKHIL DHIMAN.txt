@@ -1,0 +1,57 @@
+JS,props,UI,web application,forms,router,component,onSubmit,multipages,react,Redux,UX,map,filter,onClick,state,buttons,link,validation,CSS,function
+,global state,nested route
+
+Order
+1)UI
+2)CSS
+3)REACT
+4)COMPONENT
+5)JS
+6)Function
+7)web_applications
+8)state
+9)router
+10)Redux
+11)Onclick
+12)Onsumbit
+13)link
+14)button
+15)map
+16)filter
+17)validation
+18)nested route
+19)multipages
+20)globalstate
+21)UX
+22)Props
+23)Forms
+
+
+Five important things   
+1) UI
+2) CSS
+3) REACT
+4) Component
+5) JS
+
+Short notes
+
+1) Ui: User Interface (UI) is the visual part of a website or application that allows users to interact with the system through buttons, menus, forms, images and other elements. 
+
+Logic : It maximises the user experience
+
+2) CSS : CSS stands for cascading style sheet.It is used to design and format HTML web pages by controlling colors, fonts,backgrounds,layouts.It is very important because it improves user experience 
+
+Logic :Makes our website look good and better
+
+3) REACT: React is a javaScript library developed by Facebook used to build fast and dynamic user interfaces. It helps in improving user experience by quick action and fast rendering. 
+
+Logic : Fast rendering  makes it easier for user and developer .Helps interaction between code and user
+
+4) Component : A component is a reusable part of a React application that represents a specific section of the user interface and makes code easier to manage. 
+
+Logic: It makes code reusable, organized and easier to manage . User can it use it whenever he wants
+
+5) JS : JavaScript is a programming language used to make web pages interactive and dynamic by handling user actions and adding functionality to website.
+
+Logic : Without JavaScript, websites would mostly contain static content.
